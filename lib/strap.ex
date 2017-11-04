@@ -50,7 +50,7 @@ defmodule Strap do
 
   ## Returns
 
-  A server structure, for use with `public_key/1' and `session_key/2`.
+  A server structure, for use with `public_key/1` and `session_key/2`.
   """
   @spec server(protocol, bin_number, bin_number) :: server
   def server(protocol, verifier, private \\ rand_bytes()) do

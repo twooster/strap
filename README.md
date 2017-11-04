@@ -5,6 +5,9 @@ This is a simple module that helps you implement the Secure Remote Password
 the [design documents](http://srp.stanford.edu/design.html) and
 [RFC5054](https://tools.ietf.org/html/rfc5054).
 
+[![Build Status](https://travis-ci.org/twooster/strap.svg?branch=master)](https://travis-ci.org/twooster/strap)
+[![Hex.pm Version](http://img.shields.io/hexpm/v/strap.svg?style=flat)](https://hex.pm/packages/strap)
+
 ## Installation
 
 This package can be installed by adding `strap` to your list of dependencies in
