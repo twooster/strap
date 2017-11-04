@@ -8,7 +8,7 @@ defmodule Strap.Mixfile do
       elixir: "~> 1.3",
       start_permanent: Mix.env == :prod,
       deps: deps(),
-      package: package,
+      package: package(),
       description: """
       Lightweight SRP6/SRP6a (Secure Remote Password) library
       """
