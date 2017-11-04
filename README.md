@@ -1,4 +1,4 @@
-# Strap - Secure Remote Password 6/6a implementation
+# Strap - SRP6/6a (Secure Remote Password) for Elixir
 
 This is a simple module that helps you implement the Secure Remote Password
 (SRP) protocol in Elixir applications. For more information about SRP, see
