@@ -21,6 +21,10 @@ def deps do
 end
 ```
 
+## Documentation
+
+The HexDocs.pm documentation is available [here](https://hexdocs.pm/strap).
+
 ## SRP Flow
 
 A typical SRP request/response flow looks like this:
