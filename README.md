@@ -16,7 +16,21 @@ This package can be installed by adding `strap` to your list of dependencies in
 ```elixir
 def deps do
   [
-    {:strap, "~> 0.1.0"}
+    {:strap, "~> 0.1.1"}
+  ]
+end
+```
+
+If you're running inside of a Phoenix application, you may need to ensure the
+Erlang crypto application is loaded.
+
+```elixir
+def application do
+  [
+    extra_applications: [
+      :logger,
+      :crypto
+    ]
   ]
 end
 ```
